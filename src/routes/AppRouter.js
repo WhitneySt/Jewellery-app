@@ -8,8 +8,8 @@ const AppRouter = () => {
     <BrowserRouter>
       <GlobalStyles />
       <Routes>
-        <Route path='/design' element={<Template />} />
-        <Route path='*' element={<Navigate to={'/design'} />} />
+        <Route path='/Jewellery-app/design' element={<Template />} />
+        <Route path='*' element={<Navigate to={'/Jewellery-app/design'} />} />
       </Routes>
     </BrowserRouter>
   )
